@@ -1,0 +1,57 @@
+header {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+
+h1 {
+    color: darkslategray;
+    background-color: skyblue;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 40px;
+    margin: 5px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding-right: 75px;
+    padding-top: 10px;
+    margin: 2px;
+}
+
+nav li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: right;
+    padding: 7px;
+    text-decoration: underline;
+    font-weight: bold;
+    position: relative; 
+    font-size: 25px;
+     
+}
+nav a {
+    color: skyblue;
+}
+aside {
+    width: 30%;
+    float: left;
+    color: darkslategray;
+    border-right: 3px solid darkslategray;
+    display: flex;
+    align-content: left;
+    
+}
+
+aside p {
+    width: 60%;
+    
+}
