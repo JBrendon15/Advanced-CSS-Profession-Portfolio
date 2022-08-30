@@ -57,6 +57,15 @@ div h2 {
     padding: 10px;     
 }
 
+#profile_picture {
+    display: flex;
+    max-width: 300px;
+    position: absolute;
+    left: 1400px;
+    top: 81px;
+
+}
+
 main {
     display: flex;
     flex-flow: column wrap;
@@ -162,6 +171,39 @@ div img {
     max-width: 425px;
     max-height: 220px;
     border: 5px solid darkblue;
+}
+
+#work img {
+    filter: saturate(0);
+}
+
+#work img:hover {
+    filter: saturate(1);
+}
+
+#first_h2 {
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    z-index: 1;
+    padding: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.other_h2 {
+    position: absolute;
+    left: 0px;
+    top: 130px;
+    z-index: 1;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.h2_title {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 75%;
 }
 
 footer {
