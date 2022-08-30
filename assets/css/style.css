@@ -1,3 +1,7 @@
+body {
+    background-color: skyblue;
+}
+
 header {
     background-color: darkblue;
     display: flex;
@@ -114,15 +118,57 @@ div img {
 
 #work h2{
     font-size: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 700px;
 }
 
+#first_work {
+    position: absolute;
+    left: 400px;
+    top: 600px;
+    border: 5px solid darkblue;
+}
+
+#second_work {
+   position: absolute;
+   left: 400px;
+   top: 850px;
+   max-width: 425px;
+   max-height: 220px;
+   border: 5px solid darkblue; 
+}
+
+#third_work {
+    position: absolute;
+    left: 900px;
+    top: 850px;
+    max-width: 425px;
+    max-height: 220px;
+    border: 5px solid darkblue;
+}
+
+#fourth_work {
+    position: absolute;
+    left: 400px;
+    top: 1100px;
+    max-width: 425px;
+    max-height: 220px;
+    border: 5px solid darkblue;
+}
+
+#fifth_work {
+    position: absolute;
+    left: 900px;
+    top: 1100px;
+    max-width: 425px;
+    max-height: 220px;
+    border: 5px solid darkblue;
+}
 
 footer {
     padding-top: 100px;
     position: relative;
     right: 37px;
-    display: flex;;
+    display: flex;
 }
 
 footer h2 {
@@ -138,7 +184,7 @@ footer h2 {
 
 .footer_buttons a {
     padding: 10px;
-    color: silver;
+    color: darkblue;
     font-size: 150%;
     position: relative;
     left: 50px;
