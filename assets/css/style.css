@@ -1,5 +1,5 @@
 header {
-    background-color: darkslategray;
+    background-color: darkblue;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -7,8 +7,8 @@ header {
 }
 
 h1 {
-    color: darkslategray;
-    background-color: skyblue;
+    color: darkblue;
+    background-color: silver;
     display: flex;
     padding-left: 100px;
     padding-right: 20px;
@@ -35,22 +35,39 @@ nav li {
     padding: 7px;
     text-decoration: underline;
     font-weight: bold;
-    position: relative; 
     font-size: 25px;
      
 }
 nav a {
-    color: skyblue;
+    color: silver;
 }
+
+div h2 {
+    display: inline-block;
+    position: relative;
+    bottom: 75px;
+    left: 1650px;
+    background: silver;
+    color: darkblue;
+    font-size: 250%;
+    padding: 10px;     
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+}
+
 aside {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: left;
     font-size: 300%;
     margin-left: 100px;
     float: left;
-    color: darkslategray;
-    border-right: 3px solid darkslategray;
+    color: darkblue;
+    border-right: 3px solid darkblue;
     padding-bottom: 50px;   
 }
 
@@ -62,10 +79,21 @@ aside span {
     
 }
 
-section > p {
+#about_me {
     display: flex;
+    flex-direction: column;
     padding-left: 20px;
     padding-top: 10px;
+    font-size: 150%;
+    line-height: 1.5;
+    max-height: fit-content;
+   
+}
+
+aside p {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 div img {
@@ -74,14 +102,55 @@ div img {
     width: 100%;
 }
 
-div h2 {
-    display: inline-block;
+
+#work_section {
+    display: flex;
     position: relative;
-    bottom: 75px;
-    left: 1650px;
-    background: skyblue;
-    color: darkslategray;
-    font-size: 250%;
-    padding: 10px;  
+    top: 50px;
+    left: 18px;
+    max-height: fit-content;
+    padding-bottom: 200px;
+}
+
+#work h2{
+    font-size: 100%;
+    margin-bottom: 200px;
+}
+
+
+footer {
+    padding-top: 100px;
+    position: relative;
+    right: 37px;
+    display: flex;;
+}
+
+footer h2 {
+    margin-right: 5px;
+}
+
+.footer_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
     
+}
+
+.footer_buttons a {
+    padding: 10px;
+    color: silver;
+    font-size: 150%;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
 }
