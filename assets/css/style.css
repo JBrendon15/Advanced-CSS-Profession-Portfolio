@@ -31,6 +31,11 @@ nav {
     margin: 2px;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
 nav li {
     display: flex;
     flex-direction: row;
@@ -122,7 +127,7 @@ div img {
     top: 50px;
     left: 18px;
     max-height: fit-content;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 #work h2{
@@ -233,7 +238,7 @@ footer h2 {
     top: 40px;
 }
 
-@media only screen 
+/* @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -241,4 +246,4 @@ footer h2 {
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-}
+} */
