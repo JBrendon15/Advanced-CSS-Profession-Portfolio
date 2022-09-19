@@ -205,7 +205,8 @@ div img {
     padding-bottom: 30px;
 }
 
-.h2_title {
+.h2_title,
+.other_h2_title {
     display: flex;
     flex-wrap: wrap;
     font-size: 75%;
